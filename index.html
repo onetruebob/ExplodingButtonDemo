@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>  
+    <head>  
+    <title>Explosion Demo</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<style>
+  body {
+    background-image:url('IMG_4125.jpg');
+    background-color:#cccccc;
+  }
+
+  #explode {
+    display: block;
+    position: absolute;
+    top: 198px;
+    left: 163px;
+    z-index: 2;
+    width: 305px;
+    height: 105px;
+  }
+
+  #explodecanvas {
+    position: absolute;
+    z-index: 1;
+  }
+
+</style>
+  
+  </head>  
+  
+  <body>
+    <h1>Exploding rectangle demo</h1>
+    <button id="explode">Explode</button>
+    <canvas id="explodecanvas" width="640" height="480">Missing the canvas </canvas>
+
+    <script type="text/javascript" src="anim.js" ></script>  
+  </body>  
+  
+</html>
